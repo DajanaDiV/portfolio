@@ -165,6 +165,24 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 .menu-ui-design::-webkit-scrollbar-thumb {
   background-color: hsl(151, 21%, 34%);
 }
+.dropdown-menu {
+    background-color: $bg-default;
+    border: none;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.15);
+    @media #{$breakpoint-md} {
+        top: 90px !important;
+    }
+    @media #{$breakpoint-xs} {
+        min-width: 100px;
+        top: 70px !important;
+    }
+    .dropdown-item:focus,
+    .dropdown-item:hover {
+        color: $white-color;
+        background-color: $dark-color;
+    }
+}
+}
 /*.menu-ui-design*/
 
 

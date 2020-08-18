@@ -207,7 +207,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #3b5f3c;}
+  .dropdown:hover .dropbtn {background-color: #cad4ca;}
 
 
 /*.navbar-toggle */

@@ -711,13 +711,13 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*-------------------------------------
         10. Clients
 --------------------------------------*/
-.clients {padding-top: 50px;}
+.clients {padding-top: 5px;}
 .clients-area {
     display: flex;
     align-items: center;
-    height: 250px;
+    height: 300px;
 }
-.clients-area .item {padding: 0 25px;}
+.clients-area .item {padding: 0 10px;}
 
 .clients .clients-area .owl-carousel .owl-item img {
     display: block;
@@ -731,7 +731,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 --------------------------------------*/
 .contact {
     background: #f9fbfd;
-    padding: 50px 0 100px;
+    padding: 30px 0 20px;
 }
 .single-contact-box {padding-top: 100px;}
 .contact-form  .form-group {

@@ -167,13 +167,12 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 }
 /*.menu-ui-design*/
 
-
 /* Dropdown Button */
 .dropbtn {
     background-color: #ffffff;
     color: white;
     padding: 33px;
-  
+    font-size: 9px;
     border: none;
   }
   
@@ -188,7 +187,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 90px;
+    min-width: 80px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -196,7 +195,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
   /* Links inside the dropdown */
   .dropdown-content a {
     color: black;
-    padding: 6px 6px;
+    padding: 5px 5px;
     text-decoration: none;
     display: block;
   }
@@ -208,7 +207,8 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #2d472e;}
+  .dropdown:hover .dropbtn {background-color: #3b5f3c;}
+
 
 /*.navbar-toggle */
 nav.navbar.bootsnav .navbar-toggle {

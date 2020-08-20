@@ -187,7 +187,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 80px;
+    min-width: 90px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -195,7 +195,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
   /* Links inside the dropdown */
   .dropdown-content a {
     color: black;
-    padding: 5px 5px;
+    padding: 6px 6px;
     text-decoration: none;
     display: block;
   }
@@ -207,7 +207,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #cad4ca;}
+  .dropdown:hover .dropbtn {background-color: #3b5f3c;}
 
 
 /*.navbar-toggle */
@@ -711,13 +711,13 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*-------------------------------------
         10. Clients
 --------------------------------------*/
-.clients {padding-top: 5px;}
+.clients {padding-top: 50px;}
 .clients-area {
     display: flex;
     align-items: center;
-    height: 300px;
+    height: 250px;
 }
-.clients-area .item {padding: 0 30px;}
+.clients-area .item {padding: 0 25px;}
 
 .clients .clients-area .owl-carousel .owl-item img {
     display: block;
@@ -731,7 +731,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 --------------------------------------*/
 .contact {
     background: #f9fbfd;
-    padding: 30px 0 20px;
+    padding: 50px 0 100px;
 }
 .single-contact-box {padding-top: 100px;}
 .contact-form  .form-group {

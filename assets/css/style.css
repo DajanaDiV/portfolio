@@ -676,7 +676,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     position:absolute;
     height:100%;
     width:100%;
-    background:rgba(31,44,108,.5);
+    background:rgba(35, 51, 42, 0.5);
     display:flex;
     align-items:center;
     text-transform: uppercase;
@@ -695,8 +695,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .isotope-overlay a {
     display: inline-block;
-    color: #fff;
-    font-size: 14px;
+    color: rgb(35, 42, 61);
+    background-color: #fff;
+    font-size: 20px;
     text-align: center;
 }
 .isotope .item:hover .isotope-overlay{

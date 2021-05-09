@@ -699,6 +699,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     background-color: #fff;
     font-size: 20px;
     text-align: center;
+   
 }
 .isotope .item:hover .isotope-overlay{
     -webkit-transform:scale(1);
@@ -708,6 +709,48 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     transform:scale(1);
     top:0;
 }/*.isotope-overlay*/
+
+/*.isotope-overlay1*/
+.isotope-overlay1{
+    position:absolute;
+    height:100%;
+    width:100%;
+    background:rgba(66, 70, 67, 0.5);
+    display:flex;
+    align-items:center;
+    text-transform: uppercase;
+    justify-content:center;
+    flex-direction:row;
+    -webkit-transform:scale(0);
+    -moz-transform:scale(0);
+    -ms-transform:scale(0);
+    -o-transform:scale(0);
+    transform:scale(0);
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.isotope-overlay1 a {
+    display: inline-block;
+    color: rgb(254, 254, 255);
+    background-color: rgb(0, 44, 4);
+    font-size: 18px;
+    text-align: center;
+    left: 20px;
+    right: 18px;
+    margin: 18px 0 20px;
+    padding: 35px 110px;
+}
+.isotope .item:hover .isotope-overlay1{
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1);
+    -o-transform:scale(1);
+    transform:scale(1);
+    top:0;
+}/*.isotope-overlay1*/
 
 /*-------------------------------------
         10. Clients
